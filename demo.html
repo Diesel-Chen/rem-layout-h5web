@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rem-Demo布局</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        
+        html {
+            font-size: 0.1795vw;
+        }
+        
+        .container {
+            margin: 0 auto;
+        }
+        
+        .container .list {
+            margin-left: -10px;
+        }
+        
+        .box {
+            width: 176rem;
+            height: 45rem;
+            line-height: 45rem;
+            font-size: 16rem;
+            background-color: #ee737d;
+            float: left;
+            margin: 2rem;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .big {
+            height: 95rem;
+            line-height: 95rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 仿照demo图片 rem布局 -->
+    <div class="container">
+        <div class="list">
+            <div class="box big">酒店</div>
+            <div class="box">海外酒店</div>
+            <div class="box">团购</div>
+            <div class="box">特价酒店</div>
+            <div class="box">民宿.客栈</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
