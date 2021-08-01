@@ -274,3 +274,39 @@ body {
 .menu .menu-item:nth-child(10) span {
     background-position: 0 -252rem;
 }
+
+.advertisement {
+    height: 44rem;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+}
+
+.advertisement .ad-item1 {
+    margin-left: 10rem;
+    width: 72.5rem;
+    height: 15rem;
+    background: url("../img/hot.png") no-repeat;
+    background-size: cover;
+}
+
+.advertisement .ad-item2 {
+    margin-left: 10rem;
+    height: 15rem;
+    flex: 1;
+    background: url("../img/icon-gg@2x.png") no-repeat;
+    background-size: 36rem 15rem;
+}
+
+.advertisement .ad-item3 {
+    width: 110rem;
+    height: 20rem;
+    line-height: 20rem;
+    border-radius: 10rem;
+    background-color: pink;
+    color: #fff;
+    font-size: 12rem;
+    text-align: center;
+    margin-right: 10rem;
+}
