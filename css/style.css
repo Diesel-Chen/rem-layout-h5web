@@ -310,3 +310,35 @@ body {
     text-align: center;
     margin-right: 10rem;
 }
+
+.ad-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-list img {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.ad-list img:first-child,
+.ad-list img:nth-child(2) {
+    width: 160rem;
+    height: 115rem;
+}
+
+.ad-list img:nth-child(3),
+.ad-list img:nth-child(4),
+.ad-list img:nth-child(5),
+.ad-list img:nth-child(6) {
+    width: 160rem;
+    height: 76rem;
+}
+
+.ad-list img:nth-child(even) {
+    border-right: none;
+}
+
+.ad-list img:nth-child(odd) {
+    width: 159rem;
+}
