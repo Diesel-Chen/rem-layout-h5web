@@ -176,6 +176,9 @@ body {
     height: 55rem;
     line-height: 55rem;
     margin-right: 1rem;
+    background: url("../img/icon.png") no-repeat;
+    background-size: 104rem 327.5rem;
+    background-position: 100rem 100rem;
 }
 
 .nav .row:first-child .nav-item:last-child {
@@ -198,4 +201,16 @@ body {
 
 .nav .row:nth-child(3) .nav-item {
     background-color: #72c788;
+}
+
+.nav .row:first-child .nav-item:first-child {
+    background-position: 44rem -112rem;
+}
+
+.nav .row:nth-child(2) .nav-item:first-child {
+    background-position: 44rem -275rem;
+}
+
+.nav .row:nth-child(3) .nav-item:first-child {
+    background-position: 44rem -170rem;
 }
