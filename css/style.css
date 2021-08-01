@@ -52,3 +52,99 @@ html {
     border-radius: 14rem;
     margin-right: 15rem;
 }
+
+.banner {
+    background: url("../img/banner.jpg") no-repeat center top;
+    background-size: cover;
+    height: 137rem;
+    position: relative;
+}
+
+.banner .search {
+    position: absolute;
+    left: 12rem;
+    top: 8rem;
+    right: 51rem;
+    display: flex;
+}
+
+.banner .search input {
+    flex: 1;
+    height: 28rem;
+    line-height: 28rem;
+    border-radius: 14rem;
+    padding-left: 40rem;
+    font-size: 12rem;
+    border: none;
+}
+
+.banner .search .icon {
+    position: absolute;
+    left: 16rem;
+    top: 7rem;
+    width: 16rem;
+    height: 16rem;
+    background: url("../img/search.png") no-repeat;
+    background-size: cover;
+}
+
+.banner .user {
+    position: absolute;
+    /* background-color: pink; */
+    right: 14rem;
+    height: 6rem;
+    font-size: 12rem;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .user span {
+    display: inline-block;
+    margin-top: 6rem;
+    width: 21rem;
+    height: 21rem;
+    background: url("../img/my.png") no-repeat;
+    background-size: cover;
+}
+
+.banner .nav {
+    width: 296rem;
+    height: 66rem;
+    position: absolute;
+    left: 12rem;
+    bottom: -33rem;
+    background-color: #fff;
+    border-radius: 7rem;
+    display: flex;
+    font-size: 12rem;
+    align-content: center;
+    text-align: center;
+}
+
+.banner .nav li {
+    flex: 1;
+}
+
+.banner .nav span {
+    width: 40rem;
+    height: 40rem;
+    background: url("../img/tabs.png") no-repeat;
+    background-size: 40rem 200rem;
+    display: inline-block;
+}
+
+.banner .nav li:nth-child(2) span {
+    background-position: 0 -40rem;
+}
+
+.banner .nav li:nth-child(3) span {
+    background-position: 0 -80rem;
+}
+
+.banner .nav li:nth-child(4) span {
+    background-position: 0 -120rem;
+}
+
+.banner .nav li:nth-child(5) span {
+    background-position: 0 -160rem;
+}
