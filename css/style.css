@@ -342,3 +342,41 @@ body {
 .ad-list img:nth-child(odd) {
     width: 159rem;
 }
+
+.btns {
+    height: 61rem;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+}
+
+.btns li {
+    flex: 1;
+    font-size: 11rem;
+    text-align: center;
+}
+
+.btns li:first-child span {
+    display: inline-block;
+    width: 16rem;
+    height: 16rem;
+    background: url("../img/tel1.png") no-repeat;
+    background-size: cover;
+}
+
+.btns li:nth-child(2) span {
+    display: inline-block;
+    width: 16rem;
+    height: 16rem;
+    background: url("../img/down.png") no-repeat;
+    background-size: cover;
+}
+
+.btns li:nth-child(3) span {
+    display: inline-block;
+    width: 16rem;
+    height: 16rem;
+    background: url("../img/my.png") no-repeat;
+    background-size: cover;
+}
