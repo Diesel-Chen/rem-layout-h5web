@@ -214,3 +214,63 @@ body {
 .nav .row:nth-child(3) .nav-item:first-child {
     background-position: 44rem -170rem;
 }
+
+.menu {
+    width: 295rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.menu .menu-item {
+    width: 59rem;
+    height: 46rem;
+    text-align: center;
+    font-size: 11rem;
+    margin-bottom: 15rem;
+}
+
+.menu .menu-item span {
+    display: inline-block;
+    width: 28rem;
+    height: 28rem;
+    background: url("../img/icons.png") no-repeat;
+    background-size: 28rem 280rem;
+}
+
+.menu .menu-item:nth-child(2) span {
+    background-position: 0 -28rem;
+}
+
+.menu .menu-item:nth-child(3) span {
+    background-position: 0 -56rem;
+}
+
+.menu .menu-item:nth-child(4) span {
+    background-position: 0 -84rem;
+}
+
+.menu .menu-item:nth-child(5) span {
+    background-position: 0 -112rem;
+}
+
+.menu .menu-item:nth-child(6) span {
+    background-position: 0 -140rem;
+}
+
+.menu .menu-item:nth-child(7) span {
+    background-position: 0 -168rem;
+}
+
+.menu .menu-item:nth-child(8) span {
+    background-position: 0 -196rem;
+}
+
+.menu .menu-item:nth-child(9) span {
+    background-position: 0 -224rem;
+}
+
+.menu .menu-item:nth-child(10) span {
+    background-position: 0 -252rem;
+}
