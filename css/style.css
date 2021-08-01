@@ -380,3 +380,23 @@ body {
     background: url("../img/my.png") no-repeat;
     background-size: cover;
 }
+
+.footer {
+    height: 61rem;
+    font-size: 11rem;
+}
+
+.footer ul {
+    margin: 11rem 55rem;
+    height: 15rem;
+    display: flex;
+}
+
+.footer ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
